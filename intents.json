@@ -1,0 +1,14 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "examples": ["Hola", "como estas?", "que tal?", "Hola, como va?", "Hola, como estás?", "saludos", "Buen dia"],
+            "responses": ["Hola, soy el bot del Hospital de Lagomaggiore, estoy aqui para resolver tus dudas", "Hola, soy el bot del Hospital de Lagomaggiore, ¿cómo puedo ayudarte?", "Buen dia, soy el bot del Hospital de Lagomaggiore, estoy aqui para resolver tus dudas"] 
+        },
+        {
+            "tag": "humano?",
+            "examples": ["Es usted un doctor?", "Es un médico?", "Es un médico?", "¿Es un médico?", "¿Es un doctor?", "¿Es un médico?"],
+            "responses": ["No, soy un chatbot y estoy aqui para ayudarte", "No, no soy un médico, soy un chatbot y estoy aqui para ayudarte", "No, no soy un médico, soy un chatbot y estoy aqui para resolver tus dudas", "No, soy un bot y estoy aqui a tu disposición"]
+        }
+    ]
+}
